@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .coverimage {
-  background-image: url(/images/hero-cover.png);
+  background-image: url(images/hero-cover.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
