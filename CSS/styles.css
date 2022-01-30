@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.coverimage {
+  background-image: url(/images/hero-cover.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+.navigation .brandname {
+  font-size: 20px;
+  color: white;
+  font-family: "Montserrat";
+  margin-left: 200px;
+  margin-top: 10px;
+  position: absolute;
+}
+.navigation #nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+  text-decoration: none;
+  text-align: left;
+  color: white;
+  padding-right: 0px;
+}
