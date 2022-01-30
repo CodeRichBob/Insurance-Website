@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .coverimage {
-  background-image: url(images/hero-cover.png);
+  background-image: url(/images/hero-cover.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
@@ -300,4 +300,42 @@ p {
   float: right;
   margin-right: 130px;
   margin-top: -200px;
+}
+.appointment {
+  display: flex;
+  flex-direction: row;
+  height: 450px;
+  align-items: center;
+  margin-top: -250px;
+}
+.appointment form {
+  text-align: left;
+  align-items: left;
+  width: 30%;
+  border: 2px solid black;
+  height: 400px;
+  background-color: white;
+}
+.appointment img {
+  height: 400px;
+  margin-left: 400px;
+}
+legend {
+  text-align: center;
+  font-size: larger;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.schedule {
+  background-color: #23a6f0;
+  color: white;
+  padding: 10px;
+  margin-left: 100px;
+  border-radius: 10px;
+  width: 250px;
+  border: none;
+  font-family: sans-serif;
+}
+label {
+  font-weight: bold;
 }
