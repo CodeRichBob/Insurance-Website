@@ -148,12 +148,12 @@ seg3 {
 .seg3 .industry {
   justify-content: center;
   align-items: center;
-  margin-left: 40%;
+  margin-left: 500px;
   font-family: sans-serif;
 }
 .seg3 p {
-  margin-right: 0px;
   padding-top: 20px;
+  justify-content: center;
 }
 .team {
   display: flex;
@@ -194,4 +194,10 @@ seg3 {
 .star {
   color: yellow;
   font-size: x-large;
+}
+.user1,
+.user2,
+.user3,
+p {
+  padding-bottom: 45px;
 }
