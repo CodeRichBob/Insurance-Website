@@ -116,3 +116,27 @@ a {
   padding-top: 30px;
   color: white;
 }
+.seg2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: white;
+}
+.mind i,
+.life i,
+.faction i {
+  color: #23a6f0;
+  font-size: 50px;
+}
+.mind,
+.life,
+.faction {
+  margin: 50px 20px;
+  text-align: center;
+}
+.seg2 > div > p {
+  color: rgb(109, 108, 108);
+  padding-top: 10px;
+  font-size: 18px;
+}
