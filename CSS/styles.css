@@ -201,3 +201,14 @@ seg3 {
 p {
   padding-bottom: 45px;
 }
+.logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 200px;
+}
+.logos .logo {
+  height: 80px;
+  width: 80px;
+  margin: 1px;
+}
