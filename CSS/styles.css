@@ -148,8 +148,8 @@ seg3 {
 .seg3 .industry {
   justify-content: center;
   align-items: center;
-  margin-left: 500px;
   font-family: sans-serif;
+  text-align: center;
 }
 .seg3 p {
   padding-top: 20px;
@@ -248,18 +248,21 @@ p {
   align-items: center;
   text-align: center;
   padding-left: 30px;
+  margin-top: 80px;
 }
 .prices {
   display: flex;
+  margin-left: 25%;
 }
 .free {
   display: flex;
   flex-direction: column;
-  height: 450px;
-  width: 20%;
+  height: 500px;
+  width: 25%;
   border: 2px solid blue;
   line-height: 2;
   padding-top: 50px;
+  border-radius: 10px;
 }
 .free .fas {
   line-height: 2;
@@ -274,4 +277,6 @@ p {
   width: 150px;
   margin-left: 50px;
   border-radius: 5px;
+  margin-top: 20px;
+  border: none;
 }
