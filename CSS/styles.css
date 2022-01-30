@@ -140,3 +140,58 @@ a {
   padding-top: 10px;
   font-size: 18px;
 }
+seg3 {
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(226, 225, 225);
+}
+.seg3 .industry {
+  justify-content: center;
+  align-items: center;
+  margin-left: 40%;
+  font-family: sans-serif;
+}
+.seg3 p {
+  margin-right: 0px;
+  padding-top: 20px;
+}
+.team {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+.team .user1 {
+  height: 300px;
+  border: 2px grey solid;
+  width: 20%;
+  margin-left: 50px;
+  border-radius: 3%;
+}
+.userimage {
+  height: 100px;
+  align-items: center;
+  padding-top: 20px;
+}
+.team .user2 {
+  height: 300px;
+  border: 2px grey solid;
+  width: 20%;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 3%;
+}
+.team .user3 {
+  height: 300px;
+  border: 2px grey solid;
+  width: 20%;
+  margin-right: 50px;
+  border-radius: 3%;
+}
+.star {
+  color: yellow;
+  font-size: x-large;
+}
