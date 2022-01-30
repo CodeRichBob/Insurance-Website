@@ -259,7 +259,7 @@ p {
   flex-direction: column;
   height: 500px;
   width: 25%;
-  border: 2px solid blue;
+  border: 1px solid #23a6f0;
   line-height: 2;
   padding-top: 50px;
   border-radius: 10px;
@@ -279,4 +279,25 @@ p {
   border-radius: 5px;
   margin-top: 20px;
   border: none;
+}
+.branches {
+  height: 600px;
+  background-color: #252b42;
+  margin-top: 80px;
+}
+.branches,
+h1,
+p {
+  color: white;
+  padding: 30px;
+  justify-content: left;
+  text-align: left;
+  font-family: sans-serif;
+}
+.branches .globe {
+  height: 150px;
+  width: 350px;
+  float: right;
+  margin-right: 130px;
+  margin-top: -200px;
 }
