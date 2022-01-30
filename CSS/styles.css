@@ -28,3 +28,34 @@
   color: white;
   padding-right: 0px;
 }
+.narration {
+  justify-content: center;
+  align-items: center;
+  margin-left: 40%;
+  margin-top: 300px;
+}
+.narration h1 {
+  font-size: 50px;
+  color: white;
+}
+.narration p {
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.narration p #scale {
+  margin-left: 12%;
+}
+.buttons {
+  padding-top: 30px;
+  display: inline-block;
+}
+.buttons #btn1 {
+  background-color: blue;
+  padding: 15px 32px;
+  border: none;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 16px;
+  margin-right: 20px;
+}
