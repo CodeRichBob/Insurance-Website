@@ -140,10 +140,10 @@ a {
   padding-top: 10px;
   font-size: 18px;
 }
-seg3 {
+.seg3 {
   justify-content: center;
   align-items: center;
-  background-color: rgb(226, 225, 225);
+  height: 60%;
 }
 .seg3 .industry {
   justify-content: center;
