@@ -213,3 +213,33 @@ p {
   width: 80px;
   margin: 1px;
 }
+.subscribe {
+  display: flex;
+  width: 200;
+  height: 80px;
+  background-image: linear-gradient(to right, #033d5e, rgb(177, 12, 168));
+}
+.subscribe h3 {
+  color: white;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.subscribe .subtn {
+  margin-left: 0px;
+  float: right;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #23a6f0;
+  border: 1px white;
+  padding: 10px;
+  color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.subscribe .subtn1 {
+  margin-left: 750px;
+  float: right;
+  height: 40px;
+  margin-top: 20px;
+  border: none;
+}
