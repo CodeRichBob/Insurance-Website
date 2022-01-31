@@ -8,7 +8,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
-  position: static;
 }
 .navigation .brandname {
   font-size: 20px;
@@ -78,8 +77,6 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  position: relative;
-  flex-wrap: nowrap;
   margin-top: -70px;
 }
 .advert .peace {
@@ -146,7 +143,8 @@ a {
   height: 60%;
 }
 .seg3 .industry {
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   font-family: sans-serif;
   text-align: center;
@@ -154,6 +152,7 @@ a {
 .seg3 p {
   padding-top: 20px;
   justify-content: center;
+  color: grey;
 }
 .team {
   display: flex;
@@ -286,8 +285,8 @@ p {
   margin-top: 80px;
 }
 .branches,
-h1,
-p {
+#allover,
+#born {
   color: white;
   padding: 30px;
   justify-content: left;
@@ -339,4 +338,9 @@ legend {
 label {
   font-weight: bold;
   margin-left: 1px;
+}
+.consulting {
+  position: static;
+  float: none;
+  color: black;
 }
