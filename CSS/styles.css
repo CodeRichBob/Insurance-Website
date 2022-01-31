@@ -383,3 +383,19 @@ label {
 .get span {
   color: grey;
 }
+.end {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(239, 240, 241);
+}
+.socials i {
+  color: #23a6f0;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.designer {
+  margin-top: 20px;
+  color: grey;
+}
