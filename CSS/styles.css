@@ -363,3 +363,23 @@ label {
   color: white;
   height: 50px;
 }
+.seg6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+  font-family: sans-serif;
+}
+.seg6 strong {
+  font-size: 20px;
+}
+.seg6 p {
+  color: grey;
+}
+.seg6 i {
+  color: #23a6f0;
+  font-size: 20px;
+}
+.get span {
+  color: grey;
+}
