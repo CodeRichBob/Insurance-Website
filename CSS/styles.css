@@ -340,7 +340,26 @@ label {
   margin-left: 1px;
 }
 .consulting {
-  position: static;
-  float: none;
-  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.consult #biz {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+#quick {
+  color: grey;
+}
+.contactusbtn {
+  background-color: #23a6f0;
+  padding: 15px 32px;
+  border: none;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 16px;
+  color: white;
+  height: 50px;
 }
