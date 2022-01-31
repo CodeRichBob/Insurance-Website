@@ -366,7 +366,7 @@ label {
 .seg6 {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 50px;
   font-family: sans-serif;
 }
@@ -396,6 +396,9 @@ label {
   margin-top: 20px;
 }
 .designer {
-  margin-top: 20px;
+  margin-top: 30px;
   color: grey;
+}
+.prices h2 {
+  color: #23a6f0;
 }
